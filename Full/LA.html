@@ -1,0 +1,317 @@
+<HTML>
+    <HEAD>
+        <TITLE>Results</TITLE>
+		<script language="JavaScript" type="text/javascript" src="/includes/shared/Results.js"></script>
+		<LINK HREF="/includes/css/site.css" REL="stylesheet" TYPE="text/css">
+</HEAD>
+
+<BODY LANGUAGE=javascript onLoad="return window_onload()" LEFTMARGIN="15" TOPMARGIN="15" RIGHTMARGIN="15" BOTTOMMARGIN="15">
+<div align="center">
+
+<img src="Marathon.jpg">
+
+<table width="100%" >
+	<tr>
+      <TD width=126>&nbsp</TD>
+<td align=middle><br><h1>2015 Walt Disney World Marathon</h1></td>		<td width=122>&nbsp;
+      <TABLE width=150>
+        
+        <TR>
+          <TD>Men</TD>
+<TD align=center>9685</TD></TR>        <TR>
+          <TD>Women</TD>
+<TD align=center>10285</TD></TR>        <TR>
+          <TD>Total Finishers</TD>
+<TD align=center>19970</TD></TR></TABLE></td>	</tr>
+</table>
+<form name="f1" id="f1">
+	<input type=hidden id=lnk value=27>
+	<input type=hidden id=SelInd value=>
+	<input type=hidden id=SelType value=2>
+	<input type=hidden id=SelBib value=>
+	<input type=hidden id=SelFN value=>
+	<input type=hidden id=SelLN value=>
+	<input type=hidden id=SelCity value=>
+	<input type=hidden id=SelState value=>
+	<input type=hidden id=SelCountry value=>
+	<input type=hidden id=ScptName value=/disneysports/results/wdw/wdw15/mar_results.php>
+<table width="100%"id="tablem" name="tablem" cellpadding=4 >
+	<tr>
+		<td align=middle id=division>
+<INPUT id="radio3" name="radio3" type=radio LANGUAGE=javascript onFocus="return radio3_onfocus()"> Select a Division<br><SELECT id="select1" name="select1" 
+style="HEIGHT: 22px; WIDTH: 200px" onclick="return radio3_onclick()" onkeypress="return key_onkeypress()"> 
+
+<OPTION selected value=1B>****MEN -- OPEN****</OPTION>
+<OPTION value=1G>****WOMEN -- OPEN****</OPTION>
+<OPTION value=1M>****MEN -- MASTERS****</OPTION>
+<OPTION value=1N>****WOMEN -- MASTERS****</OPTION>
+<OPTION value=B>MEN -- 18 THROUGH 24</OPTION>
+<OPTION value=C>MEN -- 25 THROUGH 29</OPTION>
+<OPTION value=D>MEN -- 30 THROUGH 34</OPTION>
+<OPTION value=E>MEN -- 35 THROUGH 39</OPTION>
+<OPTION value=F>MEN -- 40 THROUGH 44</OPTION>
+<OPTION value=G>MEN -- 45 THROUGH 49</OPTION>
+<OPTION value=H>MEN -- 50 THROUGH 54</OPTION>
+<OPTION value=I>MEN -- 55 THROUGH 59</OPTION>
+<OPTION value=J>MEN -- 60 THROUGH 64</OPTION>
+<OPTION value=K>MEN -- 65 THROUGH 69</OPTION>
+<OPTION value=L>MEN -- 70 THROUGH 74</OPTION>
+<OPTION value=LA>MEN -- 75 THROUGH 79</OPTION>
+<OPTION value=LB>MEN -- 80 AND OVER</OPTION>
+<OPTION value=M>WOMEN -- 17 AND UNDER</OPTION>
+<OPTION value=N>WOMEN -- 18 THROUGH 24</OPTION>
+<OPTION value=O>WOMEN -- 25 THROUGH 29</OPTION>
+<OPTION value=P>WOMEN -- 30 THROUGH 34</OPTION>
+<OPTION value=Q>WOMEN -- 35 THROUGH 39</OPTION>
+<OPTION value=R>WOMEN -- 40 THROUGH 44</OPTION>
+<OPTION value=S>WOMEN -- 45 THROUGH 49</OPTION>
+<OPTION value=T>WOMEN -- 50 THROUGH 54</OPTION>
+<OPTION value=U>WOMEN -- 55 THROUGH 59</OPTION>
+<OPTION value=V>WOMEN -- 60 THROUGH 64</OPTION>
+<OPTION value=W>WOMEN -- 65 THROUGH 69</OPTION>
+<OPTION value=X>WOMEN -- 70 THROUGH 74</OPTION>
+<OPTION value=Y>WOMEN -- 75 THROUGH 79</OPTION>
+<OPTION value=ZV>WHEELCHAIR -- MEN PUSH RIM</OPTION>
+<OPTION value=ZW>WHEELCHAIR -- WOMEN PUSH RIM</OPTION>
+<OPTION value=ZX>WHEELCHAIR -- MEN HAND CYCLE</OPTION>
+<OPTION value=ZY>WHEELCHAIR -- WOMEN HAND CYCLE</OPTION>
+	
+
+</SELECT>
+		</td>
+		<td id="bib" name="bib" align=middle>
+<INPUT id="radio1" name="radio1" type=radio LANGUAGE=javascript onClick="return radio1_onclick()" onFocus="return radio1_onfocus()"> Enter a Bib Number<br><INPUT id="text1" name="text1" onClick="return radio1_onclick()" onKeyPress="return key_onkeypress()"> 
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 id="namesel" name="namesel" align=middle>
+<INPUT id="radio2" name="radio2" type=radio LANGUAGE=javascript onClick="return radio2_onclick(this)" onFocus="return radio2_onfocus(this)"> Enter any or all of the following:
+<TABLE width="100%" border=0 >
+	<tr>
+		<td align=middle>First Name</td>
+		<td align=middle> Last Name</td>
+		<td align=middle>City</td>
+		<td align=middle>State</td>
+		<td align=middle>Country</td>
+	</tr>
+	<tr>
+		<td align=middle><INPUT id="text3" name="text3" 
+      onclick="return radio2_onclick(this)"  onkeypress="return key_onkeypress()"
+      style="HEIGHT: 22px; WIDTH: 90px"></td>
+		<td align=middle><INPUT id="text2" name="text2" 
+      onclick="return radio2_onclick(this)" onKeyPress="return key_onkeypress()"
+    style="HEIGHT: 22px; WIDTH: 90px"></td>
+		<td align=middle><INPUT id="text4" name="text4" 
+      onclick="return radio2_onclick(this)" onKeyPress="return key_onkeypress()"
+      style="HEIGHT: 22px; WIDTH: 90px"></td>
+		<td align=middle><INPUT id="text5" name="text5" 
+      onclick="return radio2_onclick(this)" onKeyPress="return key_onkeypress()"
+      style="HEIGHT: 22px; WIDTH: 38px"></td>
+		<td align=middle><INPUT id="text6" name="text6" 
+      onclick="return radio2_onclick(this)" onKeyPress="return key_onkeypress()"
+      style="HEIGHT: 22px; WIDTH: 90px"></td>
+	</tr>
+</TABLE>
+		</td>
+	</tr>
+</table>
+<p>
+<table width=100%>
+	<tr>
+		<td width=250>&nbsp;</td>
+		<td align=right><input type="button" value="Search"  onclick="button1_onclick()"></td>
+		<td><input type="button" value="Back"  onClick="self.close();" ></td>
+		<td width=250>&nbsp;</td>
+	</tr>
+</table>
+
+<p>
+<TABLE class=info_table>
+<TR >
+<TH WIDTH=38  ALIGN=CENTER ><B>Div Place</B></TH>
+<TH WIDTH=153><B> Name</B></TH>
+<TH WIDTH=48  ALIGN=CENTER ><B>Bib</B></TH>
+<TH WIDTH=28  ALIGN=CENTER ><B>Age</B></TH>
+<TH WIDTH=47  ALIGN=CENTER ><B>Place</B></TH>
+<TH WIDTH=48  ALIGN=CENTER ><B>Gender Place</B></TH>
+<TH WIDTH=58  ALIGN=CENTER ><B>5 Mile Split</B></TH>
+<TH WIDTH=58  ALIGN=CENTER ><B>10 Mile Split</B></TH>
+<TH WIDTH=58  ALIGN=CENTER ><B>Half Split</B></TH>
+<TH WIDTH=58  ALIGN=CENTER ><B>20 Mile Split</B></TH>
+<TH WIDTH=57  ALIGN=CENTER ><B>Clock Time</B></TH>
+<TH WIDTH=57  ALIGN=CENTER ><B>Net Time</B></TH>
+<TH WIDTH=134 ><B> Hometown</B></TH>
+</TR>
+<TR>
+<TD bgColor="lightgrey" colspan=10><B>MEN -- 75 THROUGH 79</B></TD>
+</TR>
+<TR class=norm_row>
+<TD ALIGN=CENTER >1</TD>
+<TD >VOLKERT BOBELDIJK</TD>
+<TD ALIGN=CENTER >31775</TD>
+<TD ALIGN=CENTER >77</TD>
+<TD ALIGN=CENTER >2271</TD>
+<TD ALIGN=CENTER >1649</TD>
+<TD ALIGN=CENTER >47:52</TD>
+<TD ALIGN=CENTER >1:35:53</TD>
+<TD ALIGN=CENTER >2:04:59</TD>
+<TD ALIGN=CENTER >3:08:43</TD>
+<TD ALIGN=CENTER >4:27:28</TD>
+<TD ALIGN=CENTER >4:10:07</TD>
+<TD >PEMBROKE, CANADA</TD>
+</TR>
+<TR class=alt_row>
+<TD ALIGN=CENTER >2</TD>
+<TD >GUS KUHN</TD>
+<TD ALIGN=CENTER >33099</TD>
+<TD ALIGN=CENTER >75</TD>
+<TD ALIGN=CENTER >6951</TD>
+<TD ALIGN=CENTER >4346</TD>
+<TD ALIGN=CENTER >55:39</TD>
+<TD ALIGN=CENTER >1:49:23</TD>
+<TD ALIGN=CENTER >2:22:41</TD>
+<TD ALIGN=CENTER >3:39:18</TD>
+<TD ALIGN=CENTER >5:34:37</TD>
+<TD ALIGN=CENTER >5:05:11</TD>
+<TD >OSCEOLA, IN</TD>
+</TR>
+<TR class=norm_row>
+<TD ALIGN=CENTER >3</TD>
+<TD >FRED FIALA</TD>
+<TD ALIGN=CENTER >5821</TD>
+<TD ALIGN=CENTER >77</TD>
+<TD ALIGN=CENTER >9181</TD>
+<TD ALIGN=CENTER >5440</TD>
+<TD ALIGN=CENTER >55:01</TD>
+<TD ALIGN=CENTER >1:53:43</TD>
+<TD ALIGN=CENTER >2:32:02</TD>
+<TD ALIGN=CENTER >4:00:41</TD>
+<TD ALIGN=CENTER >6:02:23</TD>
+<TD ALIGN=CENTER >5:28:13</TD>
+<TD >SARASOTA, FL</TD>
+</TR>
+<TR class=alt_row>
+<TD ALIGN=CENTER >4</TD>
+<TD >BRUNO MIGLIORINI</TD>
+<TD ALIGN=CENTER >22913</TD>
+<TD ALIGN=CENTER >76</TD>
+<TD ALIGN=CENTER >10483</TD>
+<TD ALIGN=CENTER >6066</TD>
+<TD ALIGN=CENTER >1:02:26</TD>
+<TD ALIGN=CENTER >2:09:53</TD>
+<TD ALIGN=CENTER ></TD>
+<TD ALIGN=CENTER >4:17:15</TD>
+<TD ALIGN=CENTER >6:12:18</TD>
+<TD ALIGN=CENTER >5:41:09</TD>
+<TD >LAKELAND, FL</TD>
+</TR>
+<TR class=norm_row>
+<TD ALIGN=CENTER >5</TD>
+<TD >MASAHIKO TOHMA</TD>
+<TD ALIGN=CENTER >34724</TD>
+<TD ALIGN=CENTER >75</TD>
+<TD ALIGN=CENTER >13321</TD>
+<TD ALIGN=CENTER >7292</TD>
+<TD ALIGN=CENTER >1:07:48</TD>
+<TD ALIGN=CENTER >2:12:11</TD>
+<TD ALIGN=CENTER >3:03:01</TD>
+<TD ALIGN=CENTER >4:41:57</TD>
+<TD ALIGN=CENTER >6:48:34</TD>
+<TD ALIGN=CENTER >6:09:04</TD>
+<TD >EDOGAWA-KU,, JAPAN</TD>
+</TR>
+<TR class=alt_row>
+<TD ALIGN=CENTER >6</TD>
+<TD >JOHN CAPEN</TD>
+<TD ALIGN=CENTER >7835</TD>
+<TD ALIGN=CENTER >77</TD>
+<TD ALIGN=CENTER >15389</TD>
+<TD ALIGN=CENTER >8111</TD>
+<TD ALIGN=CENTER >1:16:05</TD>
+<TD ALIGN=CENTER >2:29:19</TD>
+<TD ALIGN=CENTER >3:16:33</TD>
+<TD ALIGN=CENTER >4:56:59</TD>
+<TD ALIGN=CENTER >7:21:26</TD>
+<TD ALIGN=CENTER >6:30:22</TD>
+<TD >STONE RIDGE, NY</TD>
+</TR>
+<TR class=norm_row>
+<TD ALIGN=CENTER >7</TD>
+<TD >RENE PINTO</TD>
+<TD ALIGN=CENTER >25914</TD>
+<TD ALIGN=CENTER >78</TD>
+<TD ALIGN=CENTER >16779</TD>
+<TD ALIGN=CENTER >8609</TD>
+<TD ALIGN=CENTER >1:17:32</TD>
+<TD ALIGN=CENTER >2:38:57</TD>
+<TD ALIGN=CENTER >3:28:08</TD>
+<TD ALIGN=CENTER >5:13:54</TD>
+<TD ALIGN=CENTER >7:40:01</TD>
+<TD ALIGN=CENTER >6:45:03</TD>
+<TD >SAO PAULO, BRAZIL</TD>
+</TR>
+<TR class=alt_row>
+<TD ALIGN=CENTER >8</TD>
+<TD >DICK HARSH</TD>
+<TD ALIGN=CENTER >35786</TD>
+<TD ALIGN=CENTER >76</TD>
+<TD ALIGN=CENTER >17386</TD>
+<TD ALIGN=CENTER >8842</TD>
+<TD ALIGN=CENTER >1:12:49</TD>
+<TD ALIGN=CENTER >2:29:46</TD>
+<TD ALIGN=CENTER >3:21:08</TD>
+<TD ALIGN=CENTER >5:12:16</TD>
+<TD ALIGN=CENTER >7:38:12</TD>
+<TD ALIGN=CENTER >6:52:13</TD>
+<TD >LITTLETON, CO</TD>
+</TR>
+<TR class=norm_row>
+<TD ALIGN=CENTER >9</TD>
+<TD >DON PURSLEY</TD>
+<TD ALIGN=CENTER >8244</TD>
+<TD ALIGN=CENTER >77</TD>
+<TD ALIGN=CENTER >18518</TD>
+<TD ALIGN=CENTER >9236</TD>
+<TD ALIGN=CENTER >1:14:53</TD>
+<TD ALIGN=CENTER >2:28:50</TD>
+<TD ALIGN=CENTER >3:18:42</TD>
+<TD ALIGN=CENTER >5:12:49</TD>
+<TD ALIGN=CENTER >7:56:33</TD>
+<TD ALIGN=CENTER >7:06:54</TD>
+<TD >CASSELBERRY, FL</TD>
+</TR>
+<TR class=alt_row>
+<TD ALIGN=CENTER >10</TD>
+<TD >ABDUL BULBULIA</TD>
+<TD ALIGN=CENTER >7153</TD>
+<TD ALIGN=CENTER >75</TD>
+<TD ALIGN=CENTER >18869</TD>
+<TD ALIGN=CENTER >9337</TD>
+<TD ALIGN=CENTER >1:15:36</TD>
+<TD ALIGN=CENTER >2:35:21</TD>
+<TD ALIGN=CENTER >3:21:26</TD>
+<TD ALIGN=CENTER >5:12:56</TD>
+<TD ALIGN=CENTER >7:58:09</TD>
+<TD ALIGN=CENTER >7:12:08</TD>
+<TD >LONGBOAT KEY, FL</TD>
+</TR>
+<TR class=norm_row>
+<TD ALIGN=CENTER >11</TD>
+<TD >HANK KIRSCHNER</TD>
+<TD ALIGN=CENTER >25114</TD>
+<TD ALIGN=CENTER >79</TD>
+<TD ALIGN=CENTER >19074</TD>
+<TD ALIGN=CENTER >9394</TD>
+<TD ALIGN=CENTER >1:20:48</TD>
+<TD ALIGN=CENTER >2:38:38</TD>
+<TD ALIGN=CENTER >3:32:19</TD>
+<TD ALIGN=CENTER >5:26:02</TD>
+<TD ALIGN=CENTER >7:22:57</TD>
+<TD ALIGN=CENTER >7:14:50</TD>
+<TD >CELEBRATION, FL</TD>
+</TR>
+</TABLE>
+
+</div>
+</BODY>
+</HTML>

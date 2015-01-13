@@ -1,0 +1,390 @@
+<HTML>
+    <HEAD>
+        <TITLE>Results</TITLE>
+		<script language="JavaScript" type="text/javascript" src="/includes/shared/Results.js"></script>
+		<LINK HREF="/includes/css/site.css" REL="stylesheet" TYPE="text/css">
+</HEAD>
+
+<BODY LANGUAGE=javascript onLoad="return window_onload()" LEFTMARGIN="15" TOPMARGIN="15" RIGHTMARGIN="15" BOTTOMMARGIN="15">
+<div align="center">
+
+<img src="Marathon.jpg">
+
+<table width="100%" >
+	<tr>
+      <TD width=126>&nbsp</TD>
+<td align=middle><br><h1>2015 Walt Disney World 10k</h1></td>		<td width=122>&nbsp;
+      <TABLE width=150>
+        
+        <TR>
+          <TD>Men</TD>
+<TD align=center>4640</TD></TR>        <TR>
+          <TD>Women</TD>
+<TD align=center>6309</TD></TR>        <TR>
+          <TD>Total Finishers</TD>
+<TD align=center>10949</TD></TR></TABLE></td>	</tr>
+</table>
+<form name="f1" id="f1">
+	<input type=hidden id=lnk value=25>
+	<input type=hidden id=SelInd value=>
+	<input type=hidden id=SelType value=2>
+	<input type=hidden id=SelBib value=>
+	<input type=hidden id=SelFN value=>
+	<input type=hidden id=SelLN value=>
+	<input type=hidden id=SelCity value=>
+	<input type=hidden id=SelState value=>
+	<input type=hidden id=SelCountry value=>
+	<input type=hidden id=ScptName value=/disneysports/results/wdw/wdw15/10k_results.php>
+<table width="100%"id="tablem" name="tablem" cellpadding=4 >
+	<tr>
+		<td align=middle id=division>
+<INPUT id="radio3" name="radio3" type=radio LANGUAGE=javascript onFocus="return radio3_onfocus()"> Select a Division<br><SELECT id="select1" name="select1" 
+style="HEIGHT: 22px; WIDTH: 200px" onclick="return radio3_onclick()" onkeypress="return key_onkeypress()"> 
+
+<OPTION selected value=1B>****MEN -- OPEN****</OPTION>
+<OPTION value=1G>****WOMEN -- OPEN****</OPTION>
+<OPTION value=1M>****MEN -- MASTERS****</OPTION>
+<OPTION value=1N>****WOMEN -- MASTERS****</OPTION>
+<OPTION value=AA>MEN -- 10 THROUGH 17</OPTION>
+<OPTION value=B>MEN -- 18 THROUGH 24</OPTION>
+<OPTION value=C>MEN -- 25 THROUGH 29</OPTION>
+<OPTION value=D>MEN -- 30 THROUGH 34</OPTION>
+<OPTION value=E>MEN -- 35 THROUGH 39</OPTION>
+<OPTION value=F>MEN -- 40 THROUGH 44</OPTION>
+<OPTION value=G>MEN -- 45 THROUGH 49</OPTION>
+<OPTION value=H>MEN -- 50 THROUGH 54</OPTION>
+<OPTION value=I>MEN -- 55 THROUGH 59</OPTION>
+<OPTION value=J>MEN -- 60 THROUGH 64</OPTION>
+<OPTION value=K>MEN -- 65 THROUGH 69</OPTION>
+<OPTION value=L>MEN -- 70 THROUGH 74</OPTION>
+<OPTION value=LA>MEN -- 75 THROUGH 79</OPTION>
+<OPTION value=LB>MEN -- 80 AND OVER</OPTION>
+<OPTION value=MA>WOMEN -- 10 THROUGH 17</OPTION>
+<OPTION value=N>WOMEN -- 18 THROUGH 24</OPTION>
+<OPTION value=O>WOMEN -- 25 THROUGH 29</OPTION>
+<OPTION value=P>WOMEN -- 30 THROUGH 34</OPTION>
+<OPTION value=Q>WOMEN -- 35 THROUGH 39</OPTION>
+<OPTION value=R>WOMEN -- 40 THROUGH 44</OPTION>
+<OPTION value=S>WOMEN -- 45 THROUGH 49</OPTION>
+<OPTION value=T>WOMEN -- 50 THROUGH 54</OPTION>
+<OPTION value=U>WOMEN -- 55 THROUGH 59</OPTION>
+<OPTION value=V>WOMEN -- 60 THROUGH 64</OPTION>
+<OPTION value=W>WOMEN -- 65 THROUGH 69</OPTION>
+<OPTION value=X>WOMEN -- 70 THROUGH 74</OPTION>
+<OPTION value=Y>WOMEN -- 75 THROUGH 79</OPTION>
+<OPTION value=YA>WOMEN -- 80 AND OVER</OPTION>
+<OPTION value=ZV>WHEELCHAIR -- MEN PUSH RIM</OPTION>
+<OPTION value=ZW>WHEELCHAIR -- WOMEN PUSH RIM</OPTION>
+<OPTION value=ZX>WHEELCHAIR -- MEN HAND CYCLE</OPTION>
+	
+
+</SELECT>
+		</td>
+		<td id="bib" name="bib" align=middle>
+<INPUT id="radio1" name="radio1" type=radio LANGUAGE=javascript onClick="return radio1_onclick()" onFocus="return radio1_onfocus()"> Enter a Bib Number<br><INPUT id="text1" name="text1" onClick="return radio1_onclick()" onKeyPress="return key_onkeypress()"> 
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 id="namesel" name="namesel" align=middle>
+<INPUT id="radio2" name="radio2" type=radio LANGUAGE=javascript onClick="return radio2_onclick(this)" onFocus="return radio2_onfocus(this)"> Enter any or all of the following:
+<TABLE width="100%" border=0 >
+	<tr>
+		<td align=middle>First Name</td>
+		<td align=middle> Last Name</td>
+		<td align=middle>City</td>
+		<td align=middle>State</td>
+		<td align=middle>Country</td>
+	</tr>
+	<tr>
+		<td align=middle><INPUT id="text3" name="text3" 
+      onclick="return radio2_onclick(this)"  onkeypress="return key_onkeypress()"
+      style="HEIGHT: 22px; WIDTH: 90px"></td>
+		<td align=middle><INPUT id="text2" name="text2" 
+      onclick="return radio2_onclick(this)" onKeyPress="return key_onkeypress()"
+    style="HEIGHT: 22px; WIDTH: 90px"></td>
+		<td align=middle><INPUT id="text4" name="text4" 
+      onclick="return radio2_onclick(this)" onKeyPress="return key_onkeypress()"
+      style="HEIGHT: 22px; WIDTH: 90px"></td>
+		<td align=middle><INPUT id="text5" name="text5" 
+      onclick="return radio2_onclick(this)" onKeyPress="return key_onkeypress()"
+      style="HEIGHT: 22px; WIDTH: 38px"></td>
+		<td align=middle><INPUT id="text6" name="text6" 
+      onclick="return radio2_onclick(this)" onKeyPress="return key_onkeypress()"
+      style="HEIGHT: 22px; WIDTH: 90px"></td>
+	</tr>
+</TABLE>
+		</td>
+	</tr>
+</table>
+<p>
+<table width=100%>
+	<tr>
+		<td width=250>&nbsp;</td>
+		<td align=right><input type="button" value="Search"  onclick="button1_onclick()"></td>
+		<td><input type="button" value="Back"  onClick="self.close();" ></td>
+		<td width=250>&nbsp;</td>
+	</tr>
+</table>
+
+<p>
+<TABLE class=info_table>
+<TR >
+<TH WIDTH=38  ALIGN=CENTER ><B>Div Place</B></TH>
+<TH WIDTH=153><B> Name</B></TH>
+<TH WIDTH=48  ALIGN=CENTER ><B>Bib</B></TH>
+<TH WIDTH=28  ALIGN=CENTER ><B>Age</B></TH>
+<TH WIDTH=47  ALIGN=CENTER ><B>Place</B></TH>
+<TH WIDTH=48  ALIGN=CENTER ><B>Gender Place</B></TH>
+<TH WIDTH=58  ALIGN=CENTER ><B>5k Split</B></TH>
+<TH WIDTH=57  ALIGN=CENTER ><B>Clock Time</B></TH>
+<TH WIDTH=57  ALIGN=CENTER ><B>Net Time</B></TH>
+<TH WIDTH=134 ><B> Hometown</B></TH>
+</TR>
+<TR>
+<TD bgColor="lightgrey" colspan=10><B>WOMEN -- 70 THROUGH 74</B></TD>
+</TR>
+<TR class=norm_row>
+<TD ALIGN=CENTER >1</TD>
+<TD >CAROL DAVIS</TD>
+<TD ALIGN=CENTER >64089</TD>
+<TD ALIGN=CENTER >74</TD>
+<TD ALIGN=CENTER >803</TD>
+<TD ALIGN=CENTER >195</TD>
+<TD ALIGN=CENTER >26:33</TD>
+<TD ALIGN=CENTER >1:44:55</TD>
+<TD ALIGN=CENTER >52:55</TD>
+<TD >SALISBURY, MD</TD>
+</TR>
+<TR class=alt_row>
+<TD ALIGN=CENTER >2</TD>
+<TD >SARAH SHIRE</TD>
+<TD ALIGN=CENTER >63789</TD>
+<TD ALIGN=CENTER >72</TD>
+<TD ALIGN=CENTER >4868</TD>
+<TD ALIGN=CENTER >2141</TD>
+<TD ALIGN=CENTER >36:12</TD>
+<TD ALIGN=CENTER >1:57:58</TD>
+<TD ALIGN=CENTER >1:16:31</TD>
+<TD >THE VILLAGES, FL</TD>
+</TR>
+<TR class=norm_row>
+<TD ALIGN=CENTER >3</TD>
+<TD >MARILYN WINN</TD>
+<TD ALIGN=CENTER >64723</TD>
+<TD ALIGN=CENTER >74</TD>
+<TD ALIGN=CENTER >6266</TD>
+<TD ALIGN=CENTER >3014</TD>
+<TD ALIGN=CENTER >40:55</TD>
+<TD ALIGN=CENTER >2:16:04</TD>
+<TD ALIGN=CENTER >1:23:37</TD>
+<TD >LARGO, FL</TD>
+</TR>
+<TR class=alt_row>
+<TD ALIGN=CENTER >4</TD>
+<TD >JOAN METZGER</TD>
+<TD ALIGN=CENTER >37105</TD>
+<TD ALIGN=CENTER >73</TD>
+<TD ALIGN=CENTER >6787</TD>
+<TD ALIGN=CENTER >3353</TD>
+<TD ALIGN=CENTER >43:05</TD>
+<TD ALIGN=CENTER >2:16:27</TD>
+<TD ALIGN=CENTER >1:26:12</TD>
+<TD >FLOWER MOUND, TX</TD>
+</TR>
+<TR class=norm_row>
+<TD ALIGN=CENTER >5</TD>
+<TD >CAROLE RUBIN</TD>
+<TD ALIGN=CENTER >63373</TD>
+<TD ALIGN=CENTER >71</TD>
+<TD ALIGN=CENTER >6896</TD>
+<TD ALIGN=CENTER >3421</TD>
+<TD ALIGN=CENTER >40:19</TD>
+<TD ALIGN=CENTER >1:57:10</TD>
+<TD ALIGN=CENTER >1:26:44</TD>
+<TD >KELLER, TX</TD>
+</TR>
+<TR class=alt_row>
+<TD ALIGN=CENTER >6</TD>
+<TD >ROSEMARY MCCLOSKEY</TD>
+<TD ALIGN=CENTER >64353</TD>
+<TD ALIGN=CENTER >74</TD>
+<TD ALIGN=CENTER >7678</TD>
+<TD ALIGN=CENTER >3962</TD>
+<TD ALIGN=CENTER >45:21</TD>
+<TD ALIGN=CENTER >2:21:00</TD>
+<TD ALIGN=CENTER >1:30:17</TD>
+<TD >BAREFOOT BAY, FL</TD>
+</TR>
+<TR class=norm_row>
+<TD ALIGN=CENTER >7</TD>
+<TD >PHOENICIA EILERT</TD>
+<TD ALIGN=CENTER >63795</TD>
+<TD ALIGN=CENTER >72</TD>
+<TD ALIGN=CENTER >7818</TD>
+<TD ALIGN=CENTER >4058</TD>
+<TD ALIGN=CENTER >45:00</TD>
+<TD ALIGN=CENTER >2:11:38</TD>
+<TD ALIGN=CENTER >1:30:56</TD>
+<TD >IRVING, TX</TD>
+</TR>
+<TR class=alt_row>
+<TD ALIGN=CENTER >8</TD>
+<TD >VESTA HETHERINGTON</TD>
+<TD ALIGN=CENTER >62657</TD>
+<TD ALIGN=CENTER >71</TD>
+<TD ALIGN=CENTER >7957</TD>
+<TD ALIGN=CENTER >4155</TD>
+<TD ALIGN=CENTER >42:03</TD>
+<TD ALIGN=CENTER >2:02:25</TD>
+<TD ALIGN=CENTER >1:31:42</TD>
+<TD >WEST PALM BEACH, FL</TD>
+</TR>
+<TR class=norm_row>
+<TD ALIGN=CENTER >9</TD>
+<TD >ALICE MENSCHING</TD>
+<TD ALIGN=CENTER >62922</TD>
+<TD ALIGN=CENTER >70</TD>
+<TD ALIGN=CENTER >8216</TD>
+<TD ALIGN=CENTER >4338</TD>
+<TD ALIGN=CENTER >45:13</TD>
+<TD ALIGN=CENTER >2:13:28</TD>
+<TD ALIGN=CENTER >1:32:58</TD>
+<TD >VOORHEESVILLE, NY</TD>
+</TR>
+<TR class=alt_row>
+<TD ALIGN=CENTER >10</TD>
+<TD >KAREN OSTLUND</TD>
+<TD ALIGN=CENTER >35180</TD>
+<TD ALIGN=CENTER >71</TD>
+<TD ALIGN=CENTER >8509</TD>
+<TD ALIGN=CENTER >4534</TD>
+<TD ALIGN=CENTER >44:16</TD>
+<TD ALIGN=CENTER >2:07:23</TD>
+<TD ALIGN=CENTER >1:34:27</TD>
+<TD >AUSTIN, TX</TD>
+</TR>
+<TR class=norm_row>
+<TD ALIGN=CENTER >11</TD>
+<TD >ANNE JOHNSON</TD>
+<TD ALIGN=CENTER >64227</TD>
+<TD ALIGN=CENTER >72</TD>
+<TD ALIGN=CENTER >9143</TD>
+<TD ALIGN=CENTER >4974</TD>
+<TD ALIGN=CENTER >48:17</TD>
+<TD ALIGN=CENTER >2:28:45</TD>
+<TD ALIGN=CENTER >1:38:01</TD>
+<TD >DADE CITY, FL</TD>
+</TR>
+<TR class=alt_row>
+<TD ALIGN=CENTER >12</TD>
+<TD >ELAINE PAGEDAS</TD>
+<TD ALIGN=CENTER >64955</TD>
+<TD ALIGN=CENTER >70</TD>
+<TD ALIGN=CENTER >9293</TD>
+<TD ALIGN=CENTER >5083</TD>
+<TD ALIGN=CENTER >48:37</TD>
+<TD ALIGN=CENTER >2:31:15</TD>
+<TD ALIGN=CENTER >1:38:56</TD>
+<TD >BROOKFIELD, WI</TD>
+</TR>
+<TR class=norm_row>
+<TD ALIGN=CENTER >13</TD>
+<TD >PRISCILLA CLAPP-WIMMER</TD>
+<TD ALIGN=CENTER >63812</TD>
+<TD ALIGN=CENTER >70</TD>
+<TD ALIGN=CENTER >9497</TD>
+<TD ALIGN=CENTER >5227</TD>
+<TD ALIGN=CENTER >48:36</TD>
+<TD ALIGN=CENTER >2:21:08</TD>
+<TD ALIGN=CENTER >1:40:11</TD>
+<TD >ABINGDON, VA</TD>
+</TR>
+<TR class=alt_row>
+<TD ALIGN=CENTER >14</TD>
+<TD >LINDA HEIBLER</TD>
+<TD ALIGN=CENTER >64903</TD>
+<TD ALIGN=CENTER >70</TD>
+<TD ALIGN=CENTER >9545</TD>
+<TD ALIGN=CENTER >5264</TD>
+<TD ALIGN=CENTER >49:25</TD>
+<TD ALIGN=CENTER >2:31:26</TD>
+<TD ALIGN=CENTER >1:40:31</TD>
+<TD >ORLANDO, FL</TD>
+</TR>
+<TR class=norm_row>
+<TD ALIGN=CENTER >15</TD>
+<TD >JANICE STEWART</TD>
+<TD ALIGN=CENTER >64296</TD>
+<TD ALIGN=CENTER >70</TD>
+<TD ALIGN=CENTER >9745</TD>
+<TD ALIGN=CENTER >5420</TD>
+<TD ALIGN=CENTER >51:15</TD>
+<TD ALIGN=CENTER >2:33:21</TD>
+<TD ALIGN=CENTER >1:41:40</TD>
+<TD >CALLAO, VA</TD>
+</TR>
+<TR class=alt_row>
+<TD ALIGN=CENTER >16</TD>
+<TD >KATHLEEN DUFFY</TD>
+<TD ALIGN=CENTER >64697</TD>
+<TD ALIGN=CENTER >71</TD>
+<TD ALIGN=CENTER >9753</TD>
+<TD ALIGN=CENTER >5427</TD>
+<TD ALIGN=CENTER >52:12</TD>
+<TD ALIGN=CENTER >2:32:34</TD>
+<TD ALIGN=CENTER >1:41:43</TD>
+<TD >FORT MYERS, FL</TD>
+</TR>
+<TR class=norm_row>
+<TD ALIGN=CENTER >17</TD>
+<TD >GAIL SHUNK</TD>
+<TD ALIGN=CENTER >64793</TD>
+<TD ALIGN=CENTER >73</TD>
+<TD ALIGN=CENTER >10046</TD>
+<TD ALIGN=CENTER >5633</TD>
+<TD ALIGN=CENTER >52:02</TD>
+<TD ALIGN=CENTER >2:36:06</TD>
+<TD ALIGN=CENTER >1:44:28</TD>
+<TD >SO. BERWICK, ME</TD>
+</TR>
+<TR class=alt_row>
+<TD ALIGN=CENTER >18</TD>
+<TD >CAROL RAUB</TD>
+<TD ALIGN=CENTER >63159</TD>
+<TD ALIGN=CENTER >71</TD>
+<TD ALIGN=CENTER >10456</TD>
+<TD ALIGN=CENTER >5943</TD>
+<TD ALIGN=CENTER >52:48</TD>
+<TD ALIGN=CENTER >2:31:06</TD>
+<TD ALIGN=CENTER >1:50:24</TD>
+<TD >ROCHESTER, MI</TD>
+</TR>
+<TR class=norm_row>
+<TD ALIGN=CENTER >19</TD>
+<TD >NANCY BUCKLEW</TD>
+<TD ALIGN=CENTER >62994</TD>
+<TD ALIGN=CENTER >73</TD>
+<TD ALIGN=CENTER >10643</TD>
+<TD ALIGN=CENTER >6080</TD>
+<TD ALIGN=CENTER >56:19</TD>
+<TD ALIGN=CENTER >2:35:32</TD>
+<TD ALIGN=CENTER >1:54:44</TD>
+<TD >VERO BEACH, FL</TD>
+</TR>
+<TR class=alt_row>
+<TD ALIGN=CENTER >20</TD>
+<TD >JOYCE BRENDEN</TD>
+<TD ALIGN=CENTER >60846</TD>
+<TD ALIGN=CENTER >73</TD>
+<TD ALIGN=CENTER >10745</TD>
+<TD ALIGN=CENTER >6158</TD>
+<TD ALIGN=CENTER >46:50</TD>
+<TD ALIGN=CENTER >2:20:36</TD>
+<TD ALIGN=CENTER >1:58:29</TD>
+<TD >KISSIMMEE, FL</TD>
+</TR>
+</TABLE>
+
+</div>
+</BODY>
+</HTML>

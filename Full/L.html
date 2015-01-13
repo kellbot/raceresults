@@ -1,0 +1,602 @@
+<HTML>
+    <HEAD>
+        <TITLE>Results</TITLE>
+		<script language="JavaScript" type="text/javascript" src="/includes/shared/Results.js"></script>
+		<LINK HREF="/includes/css/site.css" REL="stylesheet" TYPE="text/css">
+</HEAD>
+
+<BODY LANGUAGE=javascript onLoad="return window_onload()" LEFTMARGIN="15" TOPMARGIN="15" RIGHTMARGIN="15" BOTTOMMARGIN="15">
+<div align="center">
+
+<img src="Marathon.jpg">
+
+<table width="100%" >
+	<tr>
+      <TD width=126>&nbsp</TD>
+<td align=middle><br><h1>2015 Walt Disney World Marathon</h1></td>		<td width=122>&nbsp;
+      <TABLE width=150>
+        
+        <TR>
+          <TD>Men</TD>
+<TD align=center>9685</TD></TR>        <TR>
+          <TD>Women</TD>
+<TD align=center>10285</TD></TR>        <TR>
+          <TD>Total Finishers</TD>
+<TD align=center>19970</TD></TR></TABLE></td>	</tr>
+</table>
+<form name="f1" id="f1">
+	<input type=hidden id=lnk value=27>
+	<input type=hidden id=SelInd value=>
+	<input type=hidden id=SelType value=2>
+	<input type=hidden id=SelBib value=>
+	<input type=hidden id=SelFN value=>
+	<input type=hidden id=SelLN value=>
+	<input type=hidden id=SelCity value=>
+	<input type=hidden id=SelState value=>
+	<input type=hidden id=SelCountry value=>
+	<input type=hidden id=ScptName value=/disneysports/results/wdw/wdw15/mar_results.php>
+<table width="100%"id="tablem" name="tablem" cellpadding=4 >
+	<tr>
+		<td align=middle id=division>
+<INPUT id="radio3" name="radio3" type=radio LANGUAGE=javascript onFocus="return radio3_onfocus()"> Select a Division<br><SELECT id="select1" name="select1" 
+style="HEIGHT: 22px; WIDTH: 200px" onclick="return radio3_onclick()" onkeypress="return key_onkeypress()"> 
+
+<OPTION selected value=1B>****MEN -- OPEN****</OPTION>
+<OPTION value=1G>****WOMEN -- OPEN****</OPTION>
+<OPTION value=1M>****MEN -- MASTERS****</OPTION>
+<OPTION value=1N>****WOMEN -- MASTERS****</OPTION>
+<OPTION value=B>MEN -- 18 THROUGH 24</OPTION>
+<OPTION value=C>MEN -- 25 THROUGH 29</OPTION>
+<OPTION value=D>MEN -- 30 THROUGH 34</OPTION>
+<OPTION value=E>MEN -- 35 THROUGH 39</OPTION>
+<OPTION value=F>MEN -- 40 THROUGH 44</OPTION>
+<OPTION value=G>MEN -- 45 THROUGH 49</OPTION>
+<OPTION value=H>MEN -- 50 THROUGH 54</OPTION>
+<OPTION value=I>MEN -- 55 THROUGH 59</OPTION>
+<OPTION value=J>MEN -- 60 THROUGH 64</OPTION>
+<OPTION value=K>MEN -- 65 THROUGH 69</OPTION>
+<OPTION value=L>MEN -- 70 THROUGH 74</OPTION>
+<OPTION value=LA>MEN -- 75 THROUGH 79</OPTION>
+<OPTION value=LB>MEN -- 80 AND OVER</OPTION>
+<OPTION value=M>WOMEN -- 17 AND UNDER</OPTION>
+<OPTION value=N>WOMEN -- 18 THROUGH 24</OPTION>
+<OPTION value=O>WOMEN -- 25 THROUGH 29</OPTION>
+<OPTION value=P>WOMEN -- 30 THROUGH 34</OPTION>
+<OPTION value=Q>WOMEN -- 35 THROUGH 39</OPTION>
+<OPTION value=R>WOMEN -- 40 THROUGH 44</OPTION>
+<OPTION value=S>WOMEN -- 45 THROUGH 49</OPTION>
+<OPTION value=T>WOMEN -- 50 THROUGH 54</OPTION>
+<OPTION value=U>WOMEN -- 55 THROUGH 59</OPTION>
+<OPTION value=V>WOMEN -- 60 THROUGH 64</OPTION>
+<OPTION value=W>WOMEN -- 65 THROUGH 69</OPTION>
+<OPTION value=X>WOMEN -- 70 THROUGH 74</OPTION>
+<OPTION value=Y>WOMEN -- 75 THROUGH 79</OPTION>
+<OPTION value=ZV>WHEELCHAIR -- MEN PUSH RIM</OPTION>
+<OPTION value=ZW>WHEELCHAIR -- WOMEN PUSH RIM</OPTION>
+<OPTION value=ZX>WHEELCHAIR -- MEN HAND CYCLE</OPTION>
+<OPTION value=ZY>WHEELCHAIR -- WOMEN HAND CYCLE</OPTION>
+	
+
+</SELECT>
+		</td>
+		<td id="bib" name="bib" align=middle>
+<INPUT id="radio1" name="radio1" type=radio LANGUAGE=javascript onClick="return radio1_onclick()" onFocus="return radio1_onfocus()"> Enter a Bib Number<br><INPUT id="text1" name="text1" onClick="return radio1_onclick()" onKeyPress="return key_onkeypress()"> 
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 id="namesel" name="namesel" align=middle>
+<INPUT id="radio2" name="radio2" type=radio LANGUAGE=javascript onClick="return radio2_onclick(this)" onFocus="return radio2_onfocus(this)"> Enter any or all of the following:
+<TABLE width="100%" border=0 >
+	<tr>
+		<td align=middle>First Name</td>
+		<td align=middle> Last Name</td>
+		<td align=middle>City</td>
+		<td align=middle>State</td>
+		<td align=middle>Country</td>
+	</tr>
+	<tr>
+		<td align=middle><INPUT id="text3" name="text3" 
+      onclick="return radio2_onclick(this)"  onkeypress="return key_onkeypress()"
+      style="HEIGHT: 22px; WIDTH: 90px"></td>
+		<td align=middle><INPUT id="text2" name="text2" 
+      onclick="return radio2_onclick(this)" onKeyPress="return key_onkeypress()"
+    style="HEIGHT: 22px; WIDTH: 90px"></td>
+		<td align=middle><INPUT id="text4" name="text4" 
+      onclick="return radio2_onclick(this)" onKeyPress="return key_onkeypress()"
+      style="HEIGHT: 22px; WIDTH: 90px"></td>
+		<td align=middle><INPUT id="text5" name="text5" 
+      onclick="return radio2_onclick(this)" onKeyPress="return key_onkeypress()"
+      style="HEIGHT: 22px; WIDTH: 38px"></td>
+		<td align=middle><INPUT id="text6" name="text6" 
+      onclick="return radio2_onclick(this)" onKeyPress="return key_onkeypress()"
+      style="HEIGHT: 22px; WIDTH: 90px"></td>
+	</tr>
+</TABLE>
+		</td>
+	</tr>
+</table>
+<p>
+<table width=100%>
+	<tr>
+		<td width=250>&nbsp;</td>
+		<td align=right><input type="button" value="Search"  onclick="button1_onclick()"></td>
+		<td><input type="button" value="Back"  onClick="self.close();" ></td>
+		<td width=250>&nbsp;</td>
+	</tr>
+</table>
+
+<p>
+<TABLE class=info_table>
+<TR >
+<TH WIDTH=38  ALIGN=CENTER ><B>Div Place</B></TH>
+<TH WIDTH=153><B> Name</B></TH>
+<TH WIDTH=48  ALIGN=CENTER ><B>Bib</B></TH>
+<TH WIDTH=28  ALIGN=CENTER ><B>Age</B></TH>
+<TH WIDTH=47  ALIGN=CENTER ><B>Place</B></TH>
+<TH WIDTH=48  ALIGN=CENTER ><B>Gender Place</B></TH>
+<TH WIDTH=58  ALIGN=CENTER ><B>5 Mile Split</B></TH>
+<TH WIDTH=58  ALIGN=CENTER ><B>10 Mile Split</B></TH>
+<TH WIDTH=58  ALIGN=CENTER ><B>Half Split</B></TH>
+<TH WIDTH=58  ALIGN=CENTER ><B>20 Mile Split</B></TH>
+<TH WIDTH=57  ALIGN=CENTER ><B>Clock Time</B></TH>
+<TH WIDTH=57  ALIGN=CENTER ><B>Net Time</B></TH>
+<TH WIDTH=134 ><B> Hometown</B></TH>
+</TR>
+<TR>
+<TD bgColor="lightgrey" colspan=10><B>MEN -- 70 THROUGH 74</B></TD>
+</TR>
+<TR class=norm_row>
+<TD ALIGN=CENTER >1</TD>
+<TD >BOB CHAMPAGNE</TD>
+<TD ALIGN=CENTER >30535</TD>
+<TD ALIGN=CENTER >73</TD>
+<TD ALIGN=CENTER >2366</TD>
+<TD ALIGN=CENTER >1711</TD>
+<TD ALIGN=CENTER >48:33</TD>
+<TD ALIGN=CENTER >1:37:26</TD>
+<TD ALIGN=CENTER >2:07:01</TD>
+<TD ALIGN=CENTER >3:13:13</TD>
+<TD ALIGN=CENTER >4:24:51</TD>
+<TD ALIGN=CENTER >4:11:29</TD>
+<TD >ROCHESTER, NY</TD>
+</TR>
+<TR class=alt_row>
+<TD ALIGN=CENTER >2</TD>
+<TD >MICHAEL MURRAY</TD>
+<TD ALIGN=CENTER >21588</TD>
+<TD ALIGN=CENTER >72</TD>
+<TD ALIGN=CENTER >4607</TD>
+<TD ALIGN=CENTER >3052</TD>
+<TD ALIGN=CENTER >45:30</TD>
+<TD ALIGN=CENTER >1:30:03</TD>
+<TD ALIGN=CENTER >1:59:04</TD>
+<TD ALIGN=CENTER >3:15:59</TD>
+<TD ALIGN=CENTER >4:57:51</TD>
+<TD ALIGN=CENTER >4:40:33</TD>
+<TD >NORTH AUGUSTA, CANADA</TD>
+</TR>
+<TR class=norm_row>
+<TD ALIGN=CENTER >3</TD>
+<TD >WILLIAM MCARTHUR</TD>
+<TD ALIGN=CENTER >31755</TD>
+<TD ALIGN=CENTER >74</TD>
+<TD ALIGN=CENTER >5181</TD>
+<TD ALIGN=CENTER >3348</TD>
+<TD ALIGN=CENTER >51:01</TD>
+<TD ALIGN=CENTER >1:44:42</TD>
+<TD ALIGN=CENTER >2:18:57</TD>
+<TD ALIGN=CENTER >3:36:15</TD>
+<TD ALIGN=CENTER >5:04:05</TD>
+<TD ALIGN=CENTER >4:46:48</TD>
+<TD >LEWES, DE</TD>
+</TR>
+<TR class=alt_row>
+<TD ALIGN=CENTER >4</TD>
+<TD >RON BALOW</TD>
+<TD ALIGN=CENTER >22343</TD>
+<TD ALIGN=CENTER >70</TD>
+<TD ALIGN=CENTER >5341</TD>
+<TD ALIGN=CENTER >3441</TD>
+<TD ALIGN=CENTER >53:42</TD>
+<TD ALIGN=CENTER >1:48:26</TD>
+<TD ALIGN=CENTER >2:22:43</TD>
+<TD ALIGN=CENTER >3:39:10</TD>
+<TD ALIGN=CENTER >5:14:21</TD>
+<TD ALIGN=CENTER >4:48:27</TD>
+<TD >DUNEDIN, FL</TD>
+</TR>
+<TR class=norm_row>
+<TD ALIGN=CENTER >5</TD>
+<TD >HERMAN KREILEY</TD>
+<TD ALIGN=CENTER >32470</TD>
+<TD ALIGN=CENTER >71</TD>
+<TD ALIGN=CENTER >5747</TD>
+<TD ALIGN=CENTER >3695</TD>
+<TD ALIGN=CENTER >55:29</TD>
+<TD ALIGN=CENTER >1:51:45</TD>
+<TD ALIGN=CENTER >2:26:25</TD>
+<TD ALIGN=CENTER >3:44:50</TD>
+<TD ALIGN=CENTER >5:14:32</TD>
+<TD ALIGN=CENTER >4:52:45</TD>
+<TD >DANSVILLE, NY</TD>
+</TR>
+<TR class=alt_row>
+<TD ALIGN=CENTER >6</TD>
+<TD >JOSEPH CAREVIC</TD>
+<TD ALIGN=CENTER >34352</TD>
+<TD ALIGN=CENTER >70</TD>
+<TD ALIGN=CENTER >6073</TD>
+<TD ALIGN=CENTER >3881</TD>
+<TD ALIGN=CENTER >55:29</TD>
+<TD ALIGN=CENTER >1:49:21</TD>
+<TD ALIGN=CENTER >2:23:10</TD>
+<TD ALIGN=CENTER >3:39:15</TD>
+<TD ALIGN=CENTER >5:35:24</TD>
+<TD ALIGN=CENTER >4:56:06</TD>
+<TD >ROSEVILLE, CA</TD>
+</TR>
+<TR class=norm_row>
+<TD ALIGN=CENTER >7</TD>
+<TD >STEVE BEAN</TD>
+<TD ALIGN=CENTER >35613</TD>
+<TD ALIGN=CENTER >71</TD>
+<TD ALIGN=CENTER >9427</TD>
+<TD ALIGN=CENTER >5549</TD>
+<TD ALIGN=CENTER >1:02:18</TD>
+<TD ALIGN=CENTER >2:05:09</TD>
+<TD ALIGN=CENTER >2:46:12</TD>
+<TD ALIGN=CENTER >4:13:26</TD>
+<TD ALIGN=CENTER >6:17:03</TD>
+<TD ALIGN=CENTER >5:30:35</TD>
+<TD >SAN DIEGO, CA</TD>
+</TR>
+<TR class=alt_row>
+<TD ALIGN=CENTER >8</TD>
+<TD >KEITH SWARTS</TD>
+<TD ALIGN=CENTER >33453</TD>
+<TD ALIGN=CENTER >71</TD>
+<TD ALIGN=CENTER >9592</TD>
+<TD ALIGN=CENTER >5635</TD>
+<TD ALIGN=CENTER >58:28</TD>
+<TD ALIGN=CENTER >2:01:37</TD>
+<TD ALIGN=CENTER ></TD>
+<TD ALIGN=CENTER >4:13:41</TD>
+<TD ALIGN=CENTER >6:03:16</TD>
+<TD ALIGN=CENTER >5:32:23</TD>
+<TD >OMAHA, NE</TD>
+</TR>
+<TR class=norm_row>
+<TD ALIGN=CENTER >9</TD>
+<TD >BRIAN LE VESCONTE</TD>
+<TD ALIGN=CENTER >36856</TD>
+<TD ALIGN=CENTER >72</TD>
+<TD ALIGN=CENTER >9759</TD>
+<TD ALIGN=CENTER >5717</TD>
+<TD ALIGN=CENTER >1:03:36</TD>
+<TD ALIGN=CENTER >2:08:36</TD>
+<TD ALIGN=CENTER >2:46:36</TD>
+<TD ALIGN=CENTER >4:10:21</TD>
+<TD ALIGN=CENTER >6:29:43</TD>
+<TD ALIGN=CENTER >5:34:01</TD>
+<TD >CALGARY, CANADA</TD>
+</TR>
+<TR class=alt_row>
+<TD ALIGN=CENTER >10</TD>
+<TD >LLOYD SUTHERLAND</TD>
+<TD ALIGN=CENTER >10404</TD>
+<TD ALIGN=CENTER >70</TD>
+<TD ALIGN=CENTER >11751</TD>
+<TD ALIGN=CENTER >6620</TD>
+<TD ALIGN=CENTER >56:32</TD>
+<TD ALIGN=CENTER >1:59:56</TD>
+<TD ALIGN=CENTER >2:34:30</TD>
+<TD ALIGN=CENTER >3:56:08</TD>
+<TD ALIGN=CENTER >6:15:40</TD>
+<TD ALIGN=CENTER >5:53:26</TD>
+<TD >FREDERICTON, CANADA</TD>
+</TR>
+<TR class=norm_row>
+<TD ALIGN=CENTER >11</TD>
+<TD >CHARLES VEURINK</TD>
+<TD ALIGN=CENTER >35740</TD>
+<TD ALIGN=CENTER >72</TD>
+<TD ALIGN=CENTER >12832</TD>
+<TD ALIGN=CENTER >7077</TD>
+<TD ALIGN=CENTER >1:01:55</TD>
+<TD ALIGN=CENTER >2:07:56</TD>
+<TD ALIGN=CENTER ></TD>
+<TD ALIGN=CENTER >4:26:59</TD>
+<TD ALIGN=CENTER >6:49:25</TD>
+<TD ALIGN=CENTER >6:04:00</TD>
+<TD >WINTER PARK, FL</TD>
+</TR>
+<TR class=alt_row>
+<TD ALIGN=CENTER >12</TD>
+<TD >JOHN STARK</TD>
+<TD ALIGN=CENTER >36319</TD>
+<TD ALIGN=CENTER >70</TD>
+<TD ALIGN=CENTER >14117</TD>
+<TD ALIGN=CENTER >7642</TD>
+<TD ALIGN=CENTER >57:05</TD>
+<TD ALIGN=CENTER >2:06:24</TD>
+<TD ALIGN=CENTER ></TD>
+<TD ALIGN=CENTER >4:42:23</TD>
+<TD ALIGN=CENTER >6:38:27</TD>
+<TD ALIGN=CENTER >6:16:56</TD>
+<TD >WINTER HAVEN, FL</TD>
+</TR>
+<TR class=norm_row>
+<TD ALIGN=CENTER >13</TD>
+<TD >JOHN MALCOM</TD>
+<TD ALIGN=CENTER >11410</TD>
+<TD ALIGN=CENTER >70</TD>
+<TD ALIGN=CENTER >14139</TD>
+<TD ALIGN=CENTER >7651</TD>
+<TD ALIGN=CENTER >1:05:09</TD>
+<TD ALIGN=CENTER >2:12:15</TD>
+<TD ALIGN=CENTER >2:57:41</TD>
+<TD ALIGN=CENTER >4:40:24</TD>
+<TD ALIGN=CENTER >7:19:17</TD>
+<TD ALIGN=CENTER >6:17:05</TD>
+<TD >PITTSVILLE, MD</TD>
+</TR>
+<TR class=alt_row>
+<TD ALIGN=CENTER >14</TD>
+<TD >WARREN NEWTON</TD>
+<TD ALIGN=CENTER >24804</TD>
+<TD ALIGN=CENTER >74</TD>
+<TD ALIGN=CENTER >14342</TD>
+<TD ALIGN=CENTER >7731</TD>
+<TD ALIGN=CENTER >1:11:35</TD>
+<TD ALIGN=CENTER >2:23:44</TD>
+<TD ALIGN=CENTER ></TD>
+<TD ALIGN=CENTER >4:47:08</TD>
+<TD ALIGN=CENTER >6:32:50</TD>
+<TD ALIGN=CENTER >6:19:25</TD>
+<TD >SAVANNAH, GA</TD>
+</TR>
+<TR class=norm_row>
+<TD ALIGN=CENTER >15</TD>
+<TD >JIM HOPEWELL</TD>
+<TD ALIGN=CENTER >35825</TD>
+<TD ALIGN=CENTER >74</TD>
+<TD ALIGN=CENTER >15118</TD>
+<TD ALIGN=CENTER >8009</TD>
+<TD ALIGN=CENTER >1:12:12</TD>
+<TD ALIGN=CENTER >2:22:46</TD>
+<TD ALIGN=CENTER >3:09:10</TD>
+<TD ALIGN=CENTER >4:53:24</TD>
+<TD ALIGN=CENTER >7:22:17</TD>
+<TD ALIGN=CENTER >6:27:19</TD>
+<TD >ANACOCO, LA</TD>
+</TR>
+<TR class=alt_row>
+<TD ALIGN=CENTER >16</TD>
+<TD >AL MELORO</TD>
+<TD ALIGN=CENTER >35807</TD>
+<TD ALIGN=CENTER >71</TD>
+<TD ALIGN=CENTER >15333</TD>
+<TD ALIGN=CENTER >8091</TD>
+<TD ALIGN=CENTER >1:06:49</TD>
+<TD ALIGN=CENTER >2:17:39</TD>
+<TD ALIGN=CENTER >3:02:11</TD>
+<TD ALIGN=CENTER >4:52:26</TD>
+<TD ALIGN=CENTER >7:14:49</TD>
+<TD ALIGN=CENTER >6:29:47</TD>
+<TD >AUDUBON, PA</TD>
+</TR>
+<TR class=norm_row>
+<TD ALIGN=CENTER >17</TD>
+<TD >DONALD DEL PONTE</TD>
+<TD ALIGN=CENTER >36255</TD>
+<TD ALIGN=CENTER >71</TD>
+<TD ALIGN=CENTER >15357</TD>
+<TD ALIGN=CENTER >8101</TD>
+<TD ALIGN=CENTER >1:10:22</TD>
+<TD ALIGN=CENTER >2:23:51</TD>
+<TD ALIGN=CENTER >3:11:15</TD>
+<TD ALIGN=CENTER >4:55:22</TD>
+<TD ALIGN=CENTER >7:20:40</TD>
+<TD ALIGN=CENTER >6:30:05</TD>
+<TD >WASHINGTON COURT HOU, OH</TD>
+</TR>
+<TR class=alt_row>
+<TD ALIGN=CENTER >18</TD>
+<TD >ROBIN RICKARD</TD>
+<TD ALIGN=CENTER >8385</TD>
+<TD ALIGN=CENTER >71</TD>
+<TD ALIGN=CENTER >16166</TD>
+<TD ALIGN=CENTER >8392</TD>
+<TD ALIGN=CENTER >1:10:46</TD>
+<TD ALIGN=CENTER >2:30:17</TD>
+<TD ALIGN=CENTER >3:15:22</TD>
+<TD ALIGN=CENTER >5:00:58</TD>
+<TD ALIGN=CENTER >7:34:20</TD>
+<TD ALIGN=CENTER >6:39:13</TD>
+<TD >CANBY, OR</TD>
+</TR>
+<TR class=norm_row>
+<TD ALIGN=CENTER >19</TD>
+<TD >LAMARR LOWE</TD>
+<TD ALIGN=CENTER >23220</TD>
+<TD ALIGN=CENTER >70</TD>
+<TD ALIGN=CENTER >16316</TD>
+<TD ALIGN=CENTER >8449</TD>
+<TD ALIGN=CENTER >1:12:02</TD>
+<TD ALIGN=CENTER >2:26:14</TD>
+<TD ALIGN=CENTER >3:15:19</TD>
+<TD ALIGN=CENTER >5:00:43</TD>
+<TD ALIGN=CENTER >7:15:26</TD>
+<TD ALIGN=CENTER >6:40:51</TD>
+<TD >ST. CLOUD, FL</TD>
+</TR>
+<TR class=alt_row>
+<TD ALIGN=CENTER >20</TD>
+<TD >HAROLD VENABLE</TD>
+<TD ALIGN=CENTER >36436</TD>
+<TD ALIGN=CENTER >71</TD>
+<TD ALIGN=CENTER >16337</TD>
+<TD ALIGN=CENTER >8458</TD>
+<TD ALIGN=CENTER >1:15:24</TD>
+<TD ALIGN=CENTER >2:33:22</TD>
+<TD ALIGN=CENTER >3:23:41</TD>
+<TD ALIGN=CENTER >5:10:30</TD>
+<TD ALIGN=CENTER >7:31:59</TD>
+<TD ALIGN=CENTER >6:41:06</TD>
+<TD >OJAI, CA</TD>
+</TR>
+<TR class=norm_row>
+<TD ALIGN=CENTER >21</TD>
+<TD >PATRICK DAMRON</TD>
+<TD ALIGN=CENTER >22064</TD>
+<TD ALIGN=CENTER >73</TD>
+<TD ALIGN=CENTER >17418</TD>
+<TD ALIGN=CENTER >8851</TD>
+<TD ALIGN=CENTER >1:15:56</TD>
+<TD ALIGN=CENTER >2:30:40</TD>
+<TD ALIGN=CENTER >3:19:10</TD>
+<TD ALIGN=CENTER >5:07:44</TD>
+<TD ALIGN=CENTER >7:06:03</TD>
+<TD ALIGN=CENTER >6:52:27</TD>
+<TD >MONROE, WA</TD>
+</TR>
+<TR class=alt_row>
+<TD ALIGN=CENTER >22</TD>
+<TD >ROBERT RODRIGUEZ</TD>
+<TD ALIGN=CENTER >25953</TD>
+<TD ALIGN=CENTER >72</TD>
+<TD ALIGN=CENTER >17485</TD>
+<TD ALIGN=CENTER >8882</TD>
+<TD ALIGN=CENTER >1:10:40</TD>
+<TD ALIGN=CENTER >2:31:51</TD>
+<TD ALIGN=CENTER >3:19:25</TD>
+<TD ALIGN=CENTER >5:09:49</TD>
+<TD ALIGN=CENTER >7:49:20</TD>
+<TD ALIGN=CENTER >6:53:12</TD>
+<TD >HEBER CITY, UT</TD>
+</TR>
+<TR class=norm_row>
+<TD ALIGN=CENTER >23</TD>
+<TD >WILLIAM HARMAN</TD>
+<TD ALIGN=CENTER >8815</TD>
+<TD ALIGN=CENTER >72</TD>
+<TD ALIGN=CENTER >18102</TD>
+<TD ALIGN=CENTER >9090</TD>
+<TD ALIGN=CENTER >1:09:50</TD>
+<TD ALIGN=CENTER >2:20:52</TD>
+<TD ALIGN=CENTER >3:15:04</TD>
+<TD ALIGN=CENTER >5:10:25</TD>
+<TD ALIGN=CENTER >7:56:21</TD>
+<TD ALIGN=CENTER >7:01:03</TD>
+<TD >UNIONVILLE, CANADA</TD>
+</TR>
+<TR class=alt_row>
+<TD ALIGN=CENTER >24</TD>
+<TD >DONALD MELLMAN</TD>
+<TD ALIGN=CENTER >9477</TD>
+<TD ALIGN=CENTER >74</TD>
+<TD ALIGN=CENTER >18246</TD>
+<TD ALIGN=CENTER >9142</TD>
+<TD ALIGN=CENTER >1:16:21</TD>
+<TD ALIGN=CENTER >2:31:44</TD>
+<TD ALIGN=CENTER >3:21:14</TD>
+<TD ALIGN=CENTER >5:14:29</TD>
+<TD ALIGN=CENTER >8:05:26</TD>
+<TD ALIGN=CENTER >7:03:05</TD>
+<TD >TAMPA, FL</TD>
+</TR>
+<TR class=norm_row>
+<TD ALIGN=CENTER >25</TD>
+<TD >YOSHIKATSU INOUE</TD>
+<TD ALIGN=CENTER >24499</TD>
+<TD ALIGN=CENTER >74</TD>
+<TD ALIGN=CENTER >18743</TD>
+<TD ALIGN=CENTER >9302</TD>
+<TD ALIGN=CENTER >1:17:43</TD>
+<TD ALIGN=CENTER >2:36:38</TD>
+<TD ALIGN=CENTER >3:29:29</TD>
+<TD ALIGN=CENTER >5:19:49</TD>
+<TD ALIGN=CENTER >7:55:14</TD>
+<TD ALIGN=CENTER >7:10:21</TD>
+<TD >MISHIMA, JAPAN</TD>
+</TR>
+<TR class=alt_row>
+<TD ALIGN=CENTER >26</TD>
+<TD >MIKE RUCKER</TD>
+<TD ALIGN=CENTER >32133</TD>
+<TD ALIGN=CENTER >74</TD>
+<TD ALIGN=CENTER >18811</TD>
+<TD ALIGN=CENTER >9323</TD>
+<TD ALIGN=CENTER >1:14:27</TD>
+<TD ALIGN=CENTER >2:39:51</TD>
+<TD ALIGN=CENTER >3:35:38</TD>
+<TD ALIGN=CENTER >5:29:48</TD>
+<TD ALIGN=CENTER >7:33:42</TD>
+<TD ALIGN=CENTER >7:11:13</TD>
+<TD >PEORIA, IL</TD>
+</TR>
+<TR class=norm_row>
+<TD ALIGN=CENTER >27</TD>
+<TD >RAYMOND OUELLETE</TD>
+<TD ALIGN=CENTER >7939</TD>
+<TD ALIGN=CENTER >70</TD>
+<TD ALIGN=CENTER >19394</TD>
+<TD ALIGN=CENTER >9494</TD>
+<TD ALIGN=CENTER >1:10:20</TD>
+<TD ALIGN=CENTER >2:33:32</TD>
+<TD ALIGN=CENTER >3:25:16</TD>
+<TD ALIGN=CENTER >5:30:19</TD>
+<TD ALIGN=CENTER >7:46:14</TD>
+<TD ALIGN=CENTER >7:20:18</TD>
+<TD >WINDHAM, NH</TD>
+</TR>
+<TR class=alt_row>
+<TD ALIGN=CENTER >28</TD>
+<TD >JAMES KNIGHT</TD>
+<TD ALIGN=CENTER >7240</TD>
+<TD ALIGN=CENTER >72</TD>
+<TD ALIGN=CENTER >19758</TD>
+<TD ALIGN=CENTER >9614</TD>
+<TD ALIGN=CENTER >1:17:14</TD>
+<TD ALIGN=CENTER >2:36:55</TD>
+<TD ALIGN=CENTER >3:25:08</TD>
+<TD ALIGN=CENTER >5:26:43</TD>
+<TD ALIGN=CENTER >8:23:07</TD>
+<TD ALIGN=CENTER >7:31:11</TD>
+<TD >BRANDON, FL</TD>
+</TR>
+<TR class=norm_row>
+<TD ALIGN=CENTER >29</TD>
+<TD >ALEXANDER ALPERIN</TD>
+<TD ALIGN=CENTER >6251</TD>
+<TD ALIGN=CENTER >70</TD>
+<TD ALIGN=CENTER >19771</TD>
+<TD ALIGN=CENTER >9616</TD>
+<TD ALIGN=CENTER >1:22:11</TD>
+<TD ALIGN=CENTER >2:45:19</TD>
+<TD ALIGN=CENTER >3:37:32</TD>
+<TD ALIGN=CENTER >5:38:32</TD>
+<TD ALIGN=CENTER >8:11:33</TD>
+<TD ALIGN=CENTER >7:31:58</TD>
+<TD >SIMPSONVILLE, SC</TD>
+</TR>
+<TR class=alt_row>
+<TD ALIGN=CENTER >30</TD>
+<TD >RUDY SMITH</TD>
+<TD ALIGN=CENTER >145</TD>
+<TD ALIGN=CENTER >72</TD>
+<TD ALIGN=CENTER >19809</TD>
+<TD ALIGN=CENTER >9626</TD>
+<TD ALIGN=CENTER >52:45</TD>
+<TD ALIGN=CENTER >1:55:52</TD>
+<TD ALIGN=CENTER >2:43:35</TD>
+<TD ALIGN=CENTER >4:53:19</TD>
+<TD ALIGN=CENTER >7:33:50</TD>
+<TD ALIGN=CENTER >7:33:38</TD>
+<TD >GRETNA, LA</TD>
+</TR>
+</TABLE>
+
+</div>
+</BODY>
+</HTML>
