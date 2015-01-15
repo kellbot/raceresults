@@ -3,7 +3,7 @@ from lxml import html
 import glob
 import os
 
-os.chdir('C:/Users/kellb_000/Documents/10k/Philly10k/')
+os.chdir('C:/Users/kellb_000/Dropbox/Hacks/Racedata/Philly10k/')
 
 for filename in glob.glob("*.html"):
     file = open(filename)
@@ -15,10 +15,10 @@ for filename in glob.glob("*.html"):
     data = list()
 
     for row in table:
-        data.append([c.text for c in row.getchildren()])
+        data.append([c.text_content() for c in row.getchildren()])
 
     letter = filename[:-5]
-    csvfile = "C:/Users/kellb_000/Documents/10k/Philly10k/" + letter + ".csv"
+    csvfile = "C:/Users/kellb_000/Dropbox/Hacks/Racedata/Philly10k/" + letter + ".csv"
 
     with open(csvfile, "w") as output:
         writer = csv.writer(output, lineterminator='\n')
